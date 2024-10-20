@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+	.aspect-1200-700 {
+		aspect-ratio: 1200 / 700;
+	}
+}
+
+.responsive-div {
+	width: 1300px;
+	height: 700px;
+	max-width: 100%;
+	max-height: 100%;
+	transform: scale(min(100vw / 1300, 100vh / 700));
+	transform-origin: center;
+}
