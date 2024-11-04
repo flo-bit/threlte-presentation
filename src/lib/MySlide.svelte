@@ -20,6 +20,8 @@
 		transition?: 'none' | 'fade' | 'slide' | 'convex' | 'concave' | 'zoom';
 		class?: string;
 
+		title?: string;
+
 		show?: boolean;
 	};
 
