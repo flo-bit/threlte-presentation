@@ -1,38 +1,11 @@
-# create-svelte
+# threlte presentation
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+presentation about threlte and building 3d stuff for the web.
 
-## Creating a project
+made with [animotion](https://animotion.pages.dev/), svelte 5 and threlte 8 (next).
 
-If you're seeing this, you've probably already done this step. Congrats!
+## links
 
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- [threlte 7 documentation](https://threlte.xyz/)
+- [threlte 8 next documentation](https://next.threlte.xyz/)
+- [three.js](https://threejs.org/)

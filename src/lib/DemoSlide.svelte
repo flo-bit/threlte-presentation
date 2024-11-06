@@ -1,12 +1,18 @@
 <script lang="ts">
 	import MySlide from './MySlide.svelte';
 
-	let props: { iframe?: string; title?: string; image?: string, children?: any } = $props();
+	let props: { iframe?: string; title?: string; image?: string, video?: string, children?: any } = $props();
 </script>
 
 <MySlide>
 	{#if props.image}
 		<img src={props.image} alt="" class="absolute inset-0 w-full h-full object-cover" />
+	{/if}
+
+	{#if props.video}
+		<video class="absolute inset-0 h-full w-full" autoplay loop muted>
+			<source src={props.video} type="video/mp4" />
+		</video>
 	{/if}
 
 	{#if props.iframe}
