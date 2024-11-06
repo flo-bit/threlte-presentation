@@ -37,7 +37,6 @@
 			<div class="text-3xl">- threlte intro</div>
 			<div class="text-3xl">- threlte code</div>
 			<div class="text-3xl">- threlte batteries</div>
-			<div class="text-3xl">- links</div>
 		</div>
 	</MySlide>
 
