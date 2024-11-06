@@ -45,6 +45,7 @@
     "@threlte/theatre": "next",
     "install": "^0.13.0",
     "postprocessing": "^6.36.3",
-    "three": "^0.169.0"
+    "three": "^0.169.0",
+    "three-mesh-bvh": "^0.8.2"
   }
 }
