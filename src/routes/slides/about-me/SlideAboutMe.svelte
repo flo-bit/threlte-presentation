@@ -21,11 +21,12 @@
 
 			<div class="flex flex-col gap-4 items-start text-left">
                 <div class="text-4xl">- Florian, 27 years old</div>
-                <div class="text-4xl">- Started programming as a teenager with OpenGL and C</div>
-                <div class="text-4xl">- Studying CS as TUB</div>
-                <div class="text-4xl">- ❤️ svelte, the web and 3d</div>
-                <div class="text-4xl">- work for a startup</div>
-                <div class="text-4xl">- some svelte in production</div>
+                <div class="text-4xl">- Learned coding with OpenGL and C</div>
+                <div class="text-4xl">- Studying CS at TUB</div>
+                <div class="text-4xl">- Working for a startup</div>
+                <div class="text-4xl">- Some svelte in production</div>
+				<div class="text-4xl">- Love svelte, the web and 3d</div>
+                <div class="text-4xl">=> Big Threlte fan</div>
             </div>
 		</div>
 	</div>

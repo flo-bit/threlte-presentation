@@ -1,6 +1,6 @@
 <script lang="ts">
 	import MySlide from '$lib/MySlide.svelte';
-	import { Code, Action } from '@animotion/core';
+	import { Code } from '@animotion/core';
 
 	let { show }: { show?: boolean } = $props();
 </script>
@@ -17,8 +17,7 @@
 			theme="github-light"
 			class="p-4 rounded-md m-4"
 			code={`<LivingRoom />
-			<Bathroom />
-			<LivingRoom />`}
+			<Bathroom />`}
 		/>
 
 		<h3>LivingRoom.svelte</h3>

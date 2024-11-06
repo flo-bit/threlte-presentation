@@ -1,7 +1,7 @@
 <script lang="ts">
 	import MySlide from './MySlide.svelte';
 
-	let props: { iframe?: string; title?: string; image?: string } = $props();
+	let props: { iframe?: string; title?: string; image?: string, children?: any } = $props();
 </script>
 
 <MySlide>
@@ -18,5 +18,9 @@
 				{props.title}
 			</div>
 		</div>
+	{/if}
+	
+	{#if props.children}
+		{@render props.children()}
 	{/if}
 </MySlide>
